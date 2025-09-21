@@ -1,1 +1,0 @@
-# ecci-art.github.io

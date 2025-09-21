@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My To-Do List</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="todo-app">
+            <h1 id="todo-header">My To-Do List</h1>
+
+            <div id="todo-add">
+                <input type="text" id="new-task" placeholder="New task">
+                <button onclick="addTask()">Add</button>
+            </div>
+
+            <h2>Task List</h2>
+            <div id="todo-box">
+                <ul id="todo-list"></ul>
+            </div>
+            <hr>
+            <div id="task-count">
+                Completed: <span id="completed-count">0</span> | 
+                Pending: <span id="pending-count">0</span>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(77, 77, 77);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+#todo-app {
+    background-color: #333;
+    width:500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#todo-list {
+    list-style-type: none;
+    background-color: #202020;
+    width: 400px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+}
+
+ul{
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+    list-style: none;
+}
+li {
+    background-color: #444;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+li.completed {
+    text-decoration: line-through;
+    color: #aaaaaa;
+    border: 1px solid #c1c1c1;
+}
+
+.edit-btn, .delete-btn {
+    float: right;
+    color: #ecc3dc;
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;
+} 
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    transition: 0.4s;
+    background-color: #ecc3dc;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #d4a5b8;
+}
+button:active {
+    transform: scale(0.95);
+}
